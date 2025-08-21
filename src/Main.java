@@ -12,8 +12,7 @@ public class Main {
         );
 
         int opcao = sc.nextInt();
-        sc.nextLine(); // Limpa buffer
-
+        sc.nextLine(); 
         switch (opcao) {
             case 1:
                 System.out.print("Nome: ");
